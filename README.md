@@ -1,0 +1,3 @@
+# Faalesho
+Developing ....
+if you like to run this project pls rename htaccess to .htaccess <3
