@@ -1,0 +1,104 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.menu{
+    background-color: #26316a;
+    position: absolute;
+    width: 50px;
+    height: 100VH;
+    display: block;
+    transition: 0.5s;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    right: 0;
+    z-index: 100;
+}
+
+.menu .bt_menu{
+    margin-top: 10px;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; 
+}
+
+.menu .menu_content{
+    display: none;
+    border: rgba(255, 255, 255, 0.432) dotted 5px;
+    width: 90%;
+    height: 90%;
+    margin-left: 5%;
+    margin-top: 10px;
+}
+
+.menu .menu_content::after{
+    content: "اعلان ها";
+}
+
+.body{
+    width: calc( 100% - 50px );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.todo{
+    width:80% ;
+    min-height: 100px;
+    margin-top: 30px;
+    border-radius: 10px;
+    border: #26316a dotted 2px;
+    text-align: center;
+}
+.todo::before{
+    content: "لیست برنامه ریزی";
+    font-weight: bold;
+    font-size: medium;
+    background-color: rgb(255, 255, 255);
+    margin-top: -15px;
+    position: absolute;
+    direction: rtl;
+}
+
+.todo #add{
+    background-color: rgb(87, 231, 106);
+    width: 40px;
+    height: 40px;
+    display: block;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    color: azure;
+    font-size: x-large;
+    font-weight: bold;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; 
+    }
+
+.work{
+    width: 95%;
+    min-height: 100px;
+    background-color: darkgray;
+    
+}
+
+.work h2{
+    text-align: right;
+}
+
+.work p{
+    text-align: right;
+
+}

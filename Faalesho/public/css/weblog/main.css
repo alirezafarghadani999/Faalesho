@@ -1,0 +1,78 @@
+@font-face {
+    font-family: "nozha";
+    src: url(font/Nozha.ttf) format('truetype');
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.topic{
+    background-color: rgba(72,191,227,1);
+    background-image: radial-gradient(at 87% 26%, rgba(136,246,231,0.07) 0%, transparent 37%), radial-gradient(at 5% 10%, rgba(105,48,195,1) 0%, transparent 57%), radial-gradient(at 94% 62%, rgba(78,168,222,1) 0%, transparent 50%), radial-gradient(at 22% 89%, rgba(118,120,216,1) 0%, transparent 50%), radial-gradient(at 39% 73%, rgba(128,255,219,1) 0%, transparent 54%), radial-gradient(at 90% 92%, rgba(116,0,184,1) 0%, transparent 50%);
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "nozha";
+    box-shadow:0px 0px 30px 0px rgba(0, 8, 255, 0.295);
+}
+.topic h1{
+    font-size: 100px;
+}
+.topic p{
+    font-size: 25px;
+    text-align: center;
+}
+.topic button{
+    background-color: #ffffff;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    transition: 0.3s;
+    backdrop-filter: blur(0) saturate(0);
+
+}
+
+.topic button:hover{
+
+    backdrop-filter: blur(5px) saturate(180%);
+    background-color: rgba(224, 224, 224, 0.336);
+    border: 1px solid rgba(224, 224, 224, 0.616);
+    color: #ffffff;
+    font-size: 23px;
+
+}
+
+
+.info {
+    margin-top: 50px;
+    font-family: "nozha";
+    direction: rtl;
+}
+
+.info .col-sm-4{
+margin-bottom: 50px;
+text-align: center;
+}
+
+
+.endpage {
+    min-height: 20vh;
+    max-height: auto;
+    background-color: rgba(44,37,37,1);
+    font-family: "nozha";
+    padding-top: 10px;
+    text-align: center;
+}
+.endpage a{
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+
+}
+    
